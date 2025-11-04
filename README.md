@@ -48,8 +48,9 @@ Using **Wireshark**, I captured packet traffic between the client and server to 
    python3 server.py
 
 2. Run the client in another terminal:
+   ```bash
    python3 client.py
 
-3. Type messages into the client — the server will echo them back.
+4. Type messages into the client — the server will echo them back.
 
-4. Open Wireshark to monitor the TCP packets during communication.
+5. Open Wireshark to monitor the TCP packets during communication.
